@@ -1,2 +1,20 @@
-<h1>Flats#new</h1>
-<p>Find me in app/views/flats/new.html.erb</p>
+
+<div class="container mt-4 d-flex justify-content-center">
+  <div class="row">
+    <div class="col-6 mt-auto">
+      <div class="flat-form">
+        <h1>Add a new flat</h1>
+        <%= simple_form_for @flat do |f| %>
+          <%= f.input :name %>
+          <%= f.input :address %>
+          <%= f.input :description %>
+          <%= f.input :number_of_guests %>
+          <%= f.input :price_per_night %>
+          <div class="mt-4">
+            <%= f.submit class: 'btn btn-primary-form' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
