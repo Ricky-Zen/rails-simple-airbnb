@@ -1,2 +1,13 @@
-<h1>Flats#edit</h1>
-<p>Find me in app/views/flats/edit.html.erb</p>
+<div class="container mt-4 d-flex justify-content-center">
+  <div class="row">
+    <div class="col-6 mt-auto">
+      <div class="flat-form">
+        <h1>Edit flat</h1>
+        <p class="mb-5"><%= @flat.name %></p>
+      <!--   FORM -->
+       <%= render "form" %>
+        <!-- END FORM -->
+      </div>
+    </div>
+  </div>
+</div>
