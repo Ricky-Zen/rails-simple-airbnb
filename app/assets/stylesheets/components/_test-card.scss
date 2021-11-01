@@ -1,0 +1,108 @@
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.test-card {
+  //border-radius: 0px 0px 20px 20px;
+  border-top:none;
+  //border-image: linear-gradient(white, grey) 2;
+  //box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.test-card-img {
+  border-radius: 20px 20px 0px 0px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.test-card-body {
+  padding: 30px;
+  border-radius: 0px 0px 20px 20px;
+  //border-color:grey;
+  //background: rgb(247, 247, 247);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  //background: linear-gradient(0deg, rgba(214,218,218,1) 0%, rgba(255,255,255,1) 100%);
+  //background: $light-grey;
+  //background: rgb(245,247,250);
+  //background: radial-gradient(circle, rgba(245,247,250,1) 0%, rgba(197,204,213,1) 100%);
+}
+
+.badge.badge-pill.category {
+  //background-color: #3a8abd;
+  background-color: #52689c;
+  color: white;
+  font-weight: 400;
+}
+
+.test-card-trainer {
+  position: relative;
+  margin-bottom: -10%;
+  margin-left:-10%;
+}
+
+.avatar {
+  width: 60px;
+  height:60px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.test-card-presentation {
+  //border: 1px solid $light-grey;
+  border-radius: 20px;
+  background: #f2f5fc;
+  // color: #314755;
+  color :#3f4c6b;
+  width: 200px;
+  text-align: center;
+  margin-left: -18%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  //box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  //box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  //box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  //box-shadow: rgba(30, 29, 29, 0.17) 0px -23px 25px 0px inset, rgba(225, 205, 205, 0.15) 0px -36px 30px 0px inset, rgba(239, 232, 232, 0.1) 0px -79px 40px 0px inset, rgba(251, 247, 247, 0.06) 0px 2px 1px, rgba(241, 232, 232, 0.09) 0px 4px 2px, rgba(30, 29, 29, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.test-card-presentation-text {
+  font-size:12px;
+  margin-left: 40px;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.btn-grad {
+  //background-color: #314755;
+  //background-image: linear-gradient(to right, #606c88 0%, #3a8abd 51%, #606c88  100%);
+  background-image: linear-gradient(to right, #606c88 0%, #3f4c6b  51%, #606c88   100%)
+
+}
+.btn-grad {
+  //margin: 10px;
+  //padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+//linear-gradient(to right, #606c88 0%, #3f4c6b  51%, #606c88  100%)
+
+

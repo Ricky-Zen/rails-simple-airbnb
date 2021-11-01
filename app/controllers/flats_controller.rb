@@ -51,6 +51,9 @@ class FlatsController < ApplicationController
     redirect_to flats_path
   end
 
+  def test
+  end
+
   private
 
   def flat_params
